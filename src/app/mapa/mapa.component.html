@@ -1,0 +1,24 @@
+<div class="map-container">
+  <div class="page-flip-overlay" [class.active]="estaTrocandoMapa">
+    <div class="page-inner">
+      <div class="page-front"></div>
+      <div class="page-back"></div>
+    </div>
+  </div>
+
+  <div id="map" [class.map-blur]="localAtivo"></div>
+
+  <div class="pergaminho-hud" [class.fase-aberta]="localAtivo && mostrarPergaminho">
+    <div class="conteudo-pergaminho" *ngIf="localAtivo">
+      <button class="fechar-hud" (click)="fecharPergaminho()" title="Fechar">&times;</button>
+      
+      <h3>{{ localAtivo.name }}</h3>
+      <span class="tipo">{{ localAtivo.type }}</span>
+      <p>{{ localAtivo.description }}</p>
+
+      <button *ngIf="mapaAtual === 'oceano'" (click)="voltarParaContinente()" class="btn-voltar">
+        Retornar ao Continente
+      </button>
+    </div>
+  </div>
+</div>

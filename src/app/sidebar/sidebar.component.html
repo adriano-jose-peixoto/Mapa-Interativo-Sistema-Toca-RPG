@@ -1,0 +1,10 @@
+<div class="sidebar" [class.aberta]="ativo">
+  <button class="btn-fechar" (click)="fechar()">×</button>
+  
+  <div class="conteudo" *ngIf="dados">
+    <h1>{{ dados.name }}</h1>
+    <span class="tipo">{{ dados.type | uppercase }}</span>
+    <hr>
+    <p>{{ dados.description }}</p>
+  </div>
+</div>

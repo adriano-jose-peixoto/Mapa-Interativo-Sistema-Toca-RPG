@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Lato:wght@400;700&display=swap');
+
+.map-container {
+  width: 100vw; height: 100vh; position: relative; background: #000; // Fundo preto absoluto
+}
+
+#map { 
+  width: 100%; height: 100%; 
+  transition: filter 1s ease-in-out; 
+}
+
+/* BLUR CORRIGIDO: Escurece muito o fundo para o pergaminho brilhar */
+#map.map-blur { 
+  filter: blur(10px) brightness(0.3); 
+}
+
+/* --- PERGAMINHO HUD --- */
+.pergaminho-hud {
+  position: absolute;
+  top: 50%; left: 50%;
+  z-index: 2000;
+  width: 90%; max-width: 450px;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -45%) scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
+  &.fase-aberta {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto;
+  }
+}
+
+.conteudo-pergaminho {
+  background: linear-gradient(135deg, #f4e4bc, #e0d2a4);
+  border: 4px double #5c4033;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  max-height: 70vh; overflow-y: auto;
+  
+  h3 { font-family: 'MedievalSharp'; color: #5a0000; font-size: 2.2rem; margin: 0; }
+  p { font-family: 'MedievalSharp'; font-size: 1.1rem; line-height: 1.5; color: #1a0f0a; text-align: justify; margin-top: 15px; }
+}
+
+.fechar-hud {
+  position: absolute; top: 15px; right: 15px;
+  background: #8a0303; color: #fff; border: 2px solid #5a0000;
+  width: 35px; height: 35px; border-radius: 50%;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: transform 0.4s ease;
+
+  &:hover {
+    transform: rotate(-90deg); /* GIRO ANTI-HORÁRIO */
+    background: #5a0000;
+  }
+}
+
+/* ... Mantenha o restante das animações de virada de página ... */
+.page-flip-overlay {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  z-index: 9999; pointer-events: none; perspective: 3000px;
+  opacity: 0; visibility: hidden; transition: 0.5s;
+  &.active { opacity: 1; visibility: visible; .page-inner { animation: flipPage 2.2s ease-in-out forwards; } }
+}
+.page-inner { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transform-origin: left center; }
+.page-front, .page-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: #f4e4bc; }
+.page-back { transform: rotateY(180deg); background: #e2d1a6; }
+@keyframes flipPage { 0% { transform: rotateY(0deg); } 100% { transform: rotateY(-180deg); } }
+
+::ng-deep .pin-imagem {
+  width: 100%; height: 100%; transition: 0.3s;
+  filter: drop-shadow(0 5px 5px rgba(0,0,0,0.5));
+  &:hover { transform: translateY(-10px) scale(1.1); }
+}

@@ -1,0 +1,28 @@
+<div class="modal-overlay" *ngIf="ativo" (click)="fechar()">
+  <div class="modal-container" (click)="$event.stopPropagation()">
+    
+    <button class="btn-fechar" (click)="fechar()">×</button>
+
+    <div class="galeria-container" *ngIf="dados?.imagens?.length">
+      <button class="nav-btn prev" (click)="imagemAnterior()">&#10094;</button>
+      
+      <img [src]="dados.imagens[imagemAtualIndex]" class="img-destaque">
+      
+      <button class="nav-btn next" (click)="proximaImagem()">&#10095;</button>
+      
+      <div class="indicadores">
+        <span *ngFor="let img of dados.imagens; let i = index" 
+              class="dot" 
+              [class.active]="i === imagemAtualIndex"></span>
+      </div>
+    </div>
+
+    <div class="conteudo-texto">
+      <h2>{{ dados.name }}</h2>
+      <span class="tipo">{{ dados.type | uppercase }}</span>
+      <hr>
+      <p>{{ dados.description }}</p>
+    </div>
+
+  </div>
+</div>

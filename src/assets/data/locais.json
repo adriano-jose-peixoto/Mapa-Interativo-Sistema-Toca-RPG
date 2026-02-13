@@ -1,0 +1,120 @@
+[
+  { 
+    "id": 1, 
+    "name": "A Toca", 
+    "type": "Cidadela & Estalagem",
+    "coords": [1428, 2052], 
+    "description": "A Estalagem na Pedra: O coração da região. Uma cidadela esculpida dentro da montanha que opera sob a fachada de uma gigantesca e acolhedora estalagem. É um santuário de neutralidade e calor, com lareiras colossais e quartos escavados na rocha. Cada serviço é gerido pelos Mantos Avermelhados Savages.\n\nA Gruta da Tríade: Nas profundezas abaixo da Toca. Uma caverna mística com um lago de águas azuis onde os Juízes (Skoll, Hati e Kodama) residem. É o local de julgamentos e sabedoria suprema.\n\nPátio dos Perdidos: Área externa vibrante. Um mercado de tendas coloridas onde mercenários buscam contratos e novatos testam suas forças. A anarquia aqui é vigiada pelas varandas da Toca.",
+    "icone": "Toca_Pin.png"
+  },
+  { 
+    "id": 2, 
+    "name": "Zona Verde", 
+    "type": "Floresta Viva",
+    "coords": [1584, 956], 
+    "description": "Jardins de Musgo Cintilante: A zona mais segura do Vale, logo aos pés da saída da Toca. Formações rochosas protegidas onde crescem plantas bioluminescentes e cristais alquímicos.\n\nSylavast: A capital construída nas copas de árvores gigantescas. Tudo é cultivado, sem metal ou pedra. Possui pontes de teia e casas que crescem. A tecnologia aqui é biológica, simbiótica e mágica.\n\nRaiz Eterna: Cidade subterrânea entre as raízes da floresta e centro de medicina natural. Um local úmido, iluminado por fungos, onde o ciclo da vida e morte é venerado sem tabus.\n\nBosque dos Sussurros: A fronteira viva da nação. Uma mata densa que age como muralha defensiva, atacando invasores que não conhecem a 'Canção da Passagem'.",
+    "icone": "Campos_Verdes_Pin.png"
+  },
+  { 
+    "id": 3, 
+    "name": "Zona Cinza", 
+    "type": "Ermo Mecânico",
+    "coords": [1640, 3256], 
+    "description": "Cidadela do Ferro Frio: Uma fortaleza brutalista de metal negro e pedra, sem qualquer adorno místico. Lar dos 'Não-Ungidos', guerreiros que rejeitam a magia e confiam apenas na engenharia mecânica e na força física.\n\nVazio de Fé: Um acampamento de sobrevivência no deserto de mana. Onde vivem os exilados, os amaldiçoados e aqueles que perderam seus deuses. A lei aqui é a sobrevivência do mais apto.\n\nRuínas do Silêncio: Uma zona anômala onde a magia não funciona de forma alguma. Conjuradores perdem seus poderes e a conexão com divindades é cortada. É usada como refúgio final ou prisão para magos perigosos.",
+    "icone": "ZonaCinza_Pin.png"
+  },
+  { 
+    "id": 4, 
+    "name": "As Terras Esquecidas", 
+    "type": "Zona de Catástrofe",
+    "coords": [824, 2020], 
+    "description": "Fronteira da Tempestade: O extremo norte do Vale. Onde o céu é perpetuamente escuro e as bestas tentam invadir. É a linha de frente onde os heróis se provam defendendo o resto do mundo.\n\nA Convergência: Epicentro de uma catástrofe mágica antiga. Uma cratera onde a realidade é distorcida e a gravidade e o tempo funcionam de forma errática. Fonte da valiosa 'Poeira de Convergência'.\n\nBosque das Sombras: Uma floresta consciente e deturpada. Árvores de casca negra se movem para bloquear caminhos e sussurram loucuras para os viajantes.\n\nPico da Desolação: Vulcão ativo que expele energia arcana violeta em vez de lava. Um farol para monstros de elite e feiticeiros em busca de poder proibido.",
+    "icone": "Terras_Esquecidas_Pin.png"
+  },
+  { 
+    "id": 5, 
+    "name": "Campos Dourados", 
+    "type": "Celeiro do Reino",
+    "coords": [2996, 1876], 
+    "description": "Cratera de Carvão: Um assentamento precário em uma depressão geográfica rica em combustível fóssil. Local de pobreza extrema e descontentamento social, agindo como um barril de pólvora para possíveis revoluções.\n\nVila do Trigo: O celeiro da nação. Um vasto território de fazendas fortificadas e moinhos. Apesar de rural, é vital e bem protegida, pois a fome derruba reis mais rápido que espadas.\n\nVale dos Vinhedos: Região de colinas suaves e clima perfeito, playground da nobreza, onde intrigas são tecidas em banquetes e a aparência vale mais que a verdade.\n\nSantuário de Lumen: Cidade sagrada e universitária. Possui as maiores bibliotecas e hospitais do reino. É considerado solo neutro, onde a busca pelo conhecimento e a cura divina superam a política.",
+    "icone": "Campos_Dourados_Pin.png"
+  },
+  { 
+    "id": 6, 
+    "name": "Província de Auroria", 
+    "type": "Litoral Civilizado",
+    "coords": [3608, 1088], 
+    "description": "Se estende por todo o litoral da região.\n\nA Capital de Pedra: Metrópole vertical construída sobre falésias costeiras. O topo abriga palácios de mármore e a corte nobre, enquanto as camadas inferiores descem até o mar. É o centro político e financeiro do mundo conhecido.\n\nPorto de Ferro: Complexo industrial de docas e armazéns. Domínio das Guildas de Comércio e, nas sombras, do crime organizado que controla o contrabando.\n\nBastião da Alvorada: Cidade-fortaleza militar que guarda a estrada principal. Lar de academias de guerra onde a lei é marcial.\n\nMartelete: Cidade industrial e mineira. O ar é pesado com fuligem e o som de martelos é eterno; é de onde sai o metal que arma os exércitos.",
+    "icone": "Provincia_Auroria_Pin.png"
+  },
+  { 
+    "id": 7, 
+    "name": "Oceano", 
+    "type": "Mar Aberto",
+    "coords": [3552, 3564], 
+    "description": "Águas profundas e misteriosas, lar de criaturas colossais e segredos ancestrais submersos.",
+    "icone": "Oceano_Pin.png"
+  },
+  {
+    "id": 8,
+    "name": "Cânion - Vale dos Ventos Uivantes",
+    "type": "Cânion & Labirinto",
+    "coords": [2382, 2842],
+    "description": "Trilha do Sussurro: O único acesso conhecido ao Vale vindo do mundo exterior. Um labirinto de cânions onde o vento cria sons desorientadores.\n\nLabirinto dos Pilares: Uma área de formações rochosas verticais e ventos gritantes. Abriga ruínas menores e criaturas voadoras perigosas.\n\nMinas de Eco: Cavernas superficiais ricas em cristais ressonantes. Uma fonte de renda vital para a região, explorada por aventureiros que vendem os minérios para Auroria.",
+    "icone": "Canion_Ping.png"
+  },
+  { 
+    "id": 9, 
+    "name": "Região Civilizada de Auroria", 
+    "type": "Portal de Retorno",
+    "coords": [828, 852], 
+    "description": "Retornar ao continente.",
+    "icone": "Provincia_Auroria_Pin.png",
+    "mapa": "oceano"
+  },
+  { 
+    "id": 10, 
+    "name": "Kymopoleia", 
+    "type": "Academia das Correntes",
+    "coords": [1380, 560], 
+    "description": "Etimologia: Mistura de Grego Arcaico (Kymopoleia, deusa das tempestades marinhas) com sintaxe arcana.\n\nLocalização: Situada em um platô subaquático onde correntes de mana puro cruzam o oceano. É o epicentro da Magia Arcana, onde as cidades são construídas em bolhas de ar sólido e conchas gigantescas.\n\nConhecimento: Diferente de Lumen na superfície, a magia aqui é estudada em sua forma bruta e perigosa. Suas bibliotecas de coral contêm tabuletas que só podem ser lidas pela vibração da água.",
+    "icone": "Kymopoleia_Pin.png",
+    "mapa": "oceano"
+  },
+  { 
+    "id": 11, 
+    "name": "Aethelgard", 
+    "type": "A Embaixada do Abismo",
+    "coords": [1464, 2088], 
+    "description": "Etimologia: Combinação de 'Aethel' (Nobre em Saxão) e 'Gard' (Domínio).\n\nEstrutura: Uma cidade projetada como uma ponte entre dois mundos, localizada em uma falésia submarina próxima ao Porto de Ferro de Auroria. Metade de sua estrutura repousa em uma ilhota artificial para diplomatas e mercadores, enquanto a outra metade permanece submersa.\n\nComércio: É o único entreposto onde cristais do Vale são trocados por pérolas negras e artefatos arcanos do mar.",
+    "icone": "Aethelgard_Pin.png",
+    "mapa": "oceano"
+  },
+  { 
+    "id": 12, 
+    "name": "N'Thalassa", 
+    "type": "O Império dos Recifes de Jade",
+    "coords": [1180, 3332], 
+    "description": "Etimologia: Derivado do Fenício e Grego Antigo para 'Mar', acompanhado de um prefixo gutural.\n\nSociedade: Lar das Naíads (Sereias e Tritões). É uma metrópole orgânica vasta que se estende por milhares de quilômetros sob os recifes de jade.\n\nArquitetura: As residências são esculpidas em corais vivos que crescem em simbiose com as famílias. A iluminação urbana é inteiramente biológica, proveniente de anêmonas cultivadas.",
+    "icone": "N’Thalassa_Pin.png",
+    "mapa": "oceano"
+  },
+  { 
+    "id": 13, 
+    "name": "Tiamat-Rún", 
+    "type": "O Vórtice dos Naufrágios",
+    "coords": [2916, 2116], 
+    "description": "Etimologia: Junção de 'Tiamat' (Deusa babilônica do caos oceânico) e 'Rún' (Mistério em nórdico antigo).\n\nAmbiente: Região marcada por tempestades perpétuas e redemoinhos, servindo como o cemitério final para os navios de Auroria que tentam cruzar as fronteiras conhecidas.\n\nPerigos: Abaixo das águas, os destroços são habitados por criaturas ancestrais. É o local onde os Mantos Avermelhados realizam caçadas contra piratas que tentam se ocultar no caos das correntes.",
+    "icone": "Tiamat-Rún _Pin.png",
+    "mapa": "oceano"
+  },
+  { 
+    "id": 14, 
+    "name": "Hadal-Khem", 
+    "type": "As Fossas Alquímicas",
+    "coords": [2956, 584], 
+    "description": "Etimologia: Derivado de 'Hadal' (Zona abissal profunda) e 'Khem' (Raiz egípcia para Alquimia).\n\nPesquisa: Localizada em trincheiras abissais aquecidas pelo centro do mundo. É o centro tecnológico mais avançado de Ylva, utilizando pressão extrema para forjar novos elementos e transmutar substâncias.\n\nLegado: Responsável pela criação dos elixires que permitem a respiração aquática prolongada. Apresenta uma estética pesada do estilo Deep-Sea Punk.",
+    "icone": "Hadal-Khem_Pin.png",
+    "mapa": "oceano"
+  }
+]

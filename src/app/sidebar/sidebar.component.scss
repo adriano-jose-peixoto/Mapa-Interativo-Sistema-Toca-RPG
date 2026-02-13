@@ -1,0 +1,30 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -350px;
+  width: 350px;
+  height: 100vh;
+  background: #2b2b2b;
+  color: #fff;
+  box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+  transition: right 0.3s ease-in-out;
+  z-index: 2000;
+  padding: 20px;
+
+  &.aberta {
+    right: 0;
+  }
+
+  .btn-fechar {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+  }
+
+  h1 { color: #f0ad4e; margin-top: 40px; }
+  .tipo { color: #aaa; font-size: 0.8em; }
+  p { line-height: 1.6; margin-top: 20px; }
+}

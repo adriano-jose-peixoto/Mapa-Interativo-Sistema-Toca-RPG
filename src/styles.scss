@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importa o estilo padrão do Leaflet direto da pasta instalada */
+@import 'leaflet/dist/leaflet.css';
+
+/* Configuração OBRIGATÓRIA para mapas tela cheia */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Evita barras de rolagem duplas */
+}
